@@ -1,5 +1,15 @@
 <?php
 
+/**
+ * Plugin Name: Post meta really updated hook
+ * Description: Adds a hook that fires when a post meta value has (really) been updated.
+ * Version:     1.0.0
+ * Author:      Martin Krcho
+ * Author URI:  http://devstudio.sk/
+ * License:     GNU General Public License v3 or later
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
 if ( ! class_exists( 'Post_Meta_Really_Updated_Hook_Util' ) ) {
 
 	class Post_Meta_Really_Updated_Hook_Util {
