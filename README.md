@@ -1,6 +1,6 @@
 # post-meta-really-updated-hook
 
-WordPress core is missing one very simple feature - a hook that fires when a post meta value has been (really) updated. This is most likely due to performance reasons.
+WordPress core is missing one very simple feature - a hook that fires when a post meta value has (really) been updated. This is most likely due to performance reasons. The update_post_meta function would always have to make an extra database call to retrieve the current meta value (unless the previous meta value is passed to the function call as parameter).
 
 The purpose of this plugin is to help with this. It allows developers to implement action that fires when post meta value actually changes.
 
